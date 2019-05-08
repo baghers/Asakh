@@ -1,0 +1,12 @@
+span.descr {
+	text-decoration:none;
+	color: Gray;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}

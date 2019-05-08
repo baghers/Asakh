@@ -1,0 +1,23 @@
+div.gallerySampleItem {
+	width: 394px;
+	height: 214px;
+	background-image: url(./../../../img/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	padding: 10px;
+	margin: 2px;
+	border: 1px solid #eeeeee;
+	
+	text-align: center;
+	vertical-align: baseline;
+}
+
+div.gallerySampleItem a {
+	text-align: center;
+	vertical-align: baseline;
+}
+
+div.gallerySampleItem img {
+	display: none;
+}
