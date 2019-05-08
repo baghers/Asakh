@@ -1,0 +1,86 @@
+/* Menu Structure
+/*-----------------------------------------------------------------------------------*/
+div #headimage {
+   background:url(assets/head6.jpg);
+   height: 115px;
+   font-family: B Nazanin; 
+     margin-left:5px;
+    width:100%;
+ 
+}
+
+a{color:#d34699; text-decoration:none;}
+a img{border:none;}
+a:hover{ text-decoration:none;}
+ul.menu {list-style:none; margin:0 0 0 0; float:right; width:95%;}
+ul.menu * {margin:0; padding:0;}
+ul#menul {padding:0 0px 0 20px;}
+ul#menul li {position:relative; float:right; padding:25px 10px 0px 10px; height:20px;}
+ul.menu li a{font-family:"B Nazanin", 'Tahoma'; color:#0b3945; font-size:14px; text-align: right; font-weight: bold;}
+ul.menu li a:hover{color:#f0f0f0; }
+ul.menu ul {position:absolute; top:45px; right:0; background:#a5c6cb; display:none; opacity:0; list-style:none;}
+ul#menul ul li {padding:0 0px 0 0px;}
+#menudiv ul li:hover > a,
+#menudiv div ul li.active > a {
+  color: blue;
+  }
+#menudiv ul ul li:hover > a,
+#menudiv ul ul li.active > a {
+  color: blue;
+}
+ul.menu ul li {position:relative; margin:0; padding:0px; width:220px; }
+ul.menu ul li a {display:block; padding:5px 7px 5px 7px;}
+ul.menu ul li a:hover {background-color:#f0f0f0; color: #000;}
+ul.menu ul ul {right:200px; top:-1px}
+ul.menu ul ul li {position:relative; margin:0; padding:0px; width:250px; }
+
+a.login{ width:30px; height:30px; display:block; float:left; background:url(img/menu/login.png) no-repeat center; margin-top:75px;}
+a:hover.login{ width:30px; height:30px; display:block; float:left; background:url(img/menu/login-hover.png) no-repeat center;margin-top:75px; }
+a.home{ width:30px; height:30px; display:block; float:left; background:url(img/menu/home1.png) no-repeat center;margin-top:75px;}
+a:hover.home{ width:30px; height:30px; display:block; float:left; background:url(img/menu/home1-hover.png) no-repeat center;margin-top:75px;}
+a.contact{ width:40px; height:35px; display:block; float:left; background:url(img/menu/contact1.png) no-repeat center;margin-top:65px;}
+a:hover.contact{ width:40px; height:35px; display:block; float:left; background:url(img/menu/contact1-hover.png) no-repeat center; margin-top:65px;}
+a.help{ width:30px; height:30px; display:block; float:left; background:url(img/menu/help.png) no-repeat center;margin-top:70px;}
+a:hover.help{ width:30px; height:30px; display:block; float:left;  background:url(img/menu/help-hover.png) no-repeat center; margin-top:70px;}
+a.help1{ width:30px; height:30px; display:block; float:left; background:url(img/menu/help1.png) no-repeat center;margin-top:75px;}
+a:hover.help1{ width:30px; height:30px; display:block; float:left;  background:url(img/menu/help1-hover.png) no-repeat center; margin-top:75px;}
+a.logout{ width:30px; height:30px; display:block; float:left;  background:url(img/menu/logout.png) no-repeat center;margin-top:75px;}
+a:hover.logout{ width:30px; height:30px; display:block; float:left; background:url(img/menu/logout-hover.png) no-repeat center; margin-top:75px;}
+
+.breadcrumb {
+    
+    float:right;
+    height:10px;
+    width: 50%;
+    text-align: right;
+    padding-right:0px;
+    padding-top: 5px;
+   	position:relative;
+    
+}
+.breadcrumb img {
+    margin:5px;
+}
+.breadcrumb a.hoverlink {
+    color: #339;
+ 
+}
+.breadcrumb a.link {
+    color: #aaa;
+ 
+}
+.welcome{
+    
+    float:left;
+    height:30px;
+    width: 40%;
+    text-align: right;
+    padding-right:0px;
+    padding-top: 5px;
+    background-color: #EDEDF6;
+	position:relative;
+	text-align:left;
+	
+    
+}
+
