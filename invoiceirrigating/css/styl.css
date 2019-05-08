@@ -1,0 +1,17 @@
+.txtvalid
+{
+  color:blue;
+  padding-right: 10px;
+  font-family: tahoma,arial;
+  font-size: 11px;
+}
+#dvmsg
+{
+  color:blue;
+  text-align:right;
+  padding:5px 30% 10px 30%;
+}
+ .label
+ {
+   width:200px;
+ }
