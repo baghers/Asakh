@@ -1,0 +1,323 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{border: 0; padding: 0; margin: 0; font-size: 100%; font: inherit; vertical-align: baseline}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block}
+
+/* Body */
+body{background: #F5F5F5; color: #333; font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 12px; margin: 0; line-height: 1.30; text-align: center; overflow-x: hidden; unicode-bidi: embed}
+form {
+    float:right;
+    width:100%;
+}
+/* Hyperlinks */
+a{color: #06F; cursor: pointer; text-decoration: none; outline: none}
+a:hover{text-decoration: underline}
+
+/* Images */
+img{vertical-align: middle}
+
+/* Table */
+table{border-collapse: collapse; border-spacing: 0}
+td{font-size: 13px; text-align: right}
+
+/* Labels */
+label{cursor: pointer; vertical-align: middle}
+
+/* Paragraphs */
+p{margin: 0.5em 0; line-height: 17px}
+
+/* Italic */
+em, i, .em{font-style: italic}
+
+/* Strong */
+strong, b, .strong{font-weight: bold}
+
+/* List */
+ol, ul{list-style: none}
+
+/* Head */
+h1, h2, h3, h4, h5, h6{color: #333; font-weight: bold; font-size: 13px}
+h1{font-size: 14px}
+h4, h5{font-size: 11px}
+
+/* Other */
+hr{background: #D9D9D9; border-width: 0; color: #D9D9D9; height: 1px}
+
+/* Form */
+form{display: inline}
+
+/* Form */
+.left{float: left}
+.right{float: right}
+
+/* Inputs */
+textarea, input, select, select{font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 11px; background-color: #ffffff;}
+/**************************************************/
+
+#container{width: 100%; height: 100%;  text-align: center; position: relative; z-index: 0;}
+
+#wrapper{width: 1200px;  margin: 0 auto; text-align: left; position: relative; z-index: 2}
+
+#nav{display: block; padding: 0 10px; margin: 0; height: 34px; z-index: 100; position: relative; list-style: none; text-align: center}
+#nav li{text-align: center; display: block; float: right; height: 34px; margin: 0; padding: 0; position: relative}
+#nav li a{float: right; height: 25px; padding: 10px 12px 0 13px; color: #222; margin-left: 0px}
+#nav li a:hover,#nav li a.here{background: #0099CC; color: #FFF; text-decoration: none}
+
+#header{width: 100%; position: relative; z-index: 1; color: white; padding:0 80px 0; height:100px;}
+#menudiv {
+width: 100%; position: relative; z-index: 1; padding: 5px 0px 0; height:30px; background:none;
+}
+
+#content{background: #FFF; border: 1px solid #CCC; direction: rtl; display: block; min-height: 400px; width:90%;padding: 1px; margin:0;width:1200px;text-align: justify; float:right; clear:both;}
+
+#content p{padding: 5px 5px 5px 15px}
+/*#content .note, #content .error{border: #EBE8D7 1px solid; display: block; width: 585px; margin: 0px auto; padding: 10px 40px 10px 10px; line-height: normal}*/
+#content .note{background: #FFF9D7 url(../assets/info.jpg) right no-repeat}
+/*#content .error{background: #FF9D9D url(../assets/error.gif) right no-repeat; border: #FF3300 1px solid}*/
+
+#footer{width: 1200px; color: #999; padding: 10px 0; text-align: center; clear:both;}
+
+/**************************************************/
+
+#records{border-collapse: collapse;	margin: auto; text-align: right}
+#records th{color: #339; padding: 12px; font-weight: normal}
+#records td{border-top: 1px solid #FFF; color: #669; padding: 0px 0px; vertical-align: top}
+#records tbody td{background: #EDEDF6}
+#records tbody tr:hover td{background: #F3F3F3; color: #339}
+
+
+#recordtable{border-collapse: collapse;	margin: auto; text-align: right}
+#recordtable th{color: #339; padding: 12px; font-weight: normal}
+#recordtable td{border-top: 1px solid #FFF; color: #669; padding: 5px 0px; vertical-align: top}
+#recordtable tbody td{background: #EDEDF6}
+#recordtable td.no{border-top: 1px solid #FFF; color: #669; padding: 5px 0px; vertical-align: top}
+#recordtable tbody td.no{padding:0px 10px; text-align:left; background:none;}
+#recordtable tbody tr:hover td.no{background:none;}
+#recordtable tbody tr:hover td{background: #F3F3F3; color: #339}
+
+/* Form Table */
+.form{direction: rtl; margin: 0 auto}
+.form td, .form th{padding: 6px; #padding: 5px; text-align: right; vertical-align: top}
+.form td.label{text-align: left}
+.form td.data{text-align: right}
+
+/* Misc */
+select{border: 1px solid #0099CC; width: auto; padding: 3px}
+.textbox{border: 1px solid #D1D1D1; padding: 3px}
+.button{background: #0099CC; border: 1px solid #0099AA; color: #FFF; width: auto; padding: 4px 20px 5px}
+
+/* Clear */
+.clearfix{zoom: 1}
+.clearfix:after{clear: both; content: "."; display: block; font-size: 0; height: 0; line-height: 0; visibility: hidden}
+
+
+/*! jQuery UI - v1.10.4 - 2014-01-17
+* http://jqueryui.com
+* Includes: jquery.ui.core.css, jquery.ui.accordion.css, jquery.ui.autocomplete.css, jquery.ui.button.css, jquery.ui.datepicker.css, jquery.ui.dialog.css, jquery.ui.menu.css, jquery.ui.progressbar.css, jquery.ui.resizable.css, jquery.ui.selectable.css, jquery.ui.slider.css, jquery.ui.spinner.css, jquery.ui.tabs.css, jquery.ui.tooltip.css, jquery.ui.theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2CArial%2Csans-serif&fwDefault=normal&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=cccccc&bgTextureHeader=highlight_soft&bgImgOpacityHeader=75&borderColorHeader=aaaaaa&fcHeader=222222&iconColorHeader=222222&bgColorContent=ffffff&bgTextureContent=flat&bgImgOpacityContent=75&borderColorContent=aaaaaa&fcContent=222222&iconColorContent=222222&bgColorDefault=e6e6e6&bgTextureDefault=glass&bgImgOpacityDefault=75&borderColorDefault=d3d3d3&fcDefault=555555&iconColorDefault=888888&bgColorHover=dadada&bgTextureHover=glass&bgImgOpacityHover=75&borderColorHover=999999&fcHover=212121&iconColorHover=454545&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=aaaaaa&fcActive=212121&iconColorActive=454545&bgColorHighlight=fbf9ee&bgTextureHighlight=glass&bgImgOpacityHighlight=55&borderColorHighlight=fcefa1&fcHighlight=363636&iconColorHighlight=2e83ff&bgColorError=fef1ec&bgTextureError=glass&bgImgOpacityError=95&borderColorError=cd0a0a&fcError=cd0a0a&iconColorError=cd0a0a&bgColorOverlay=aaaaaa&bgTextureOverlay=flat&bgImgOpacityOverlay=0&opacityOverlay=30&bgColorShadow=aaaaaa&bgTextureShadow=flat&bgImgOpacityShadow=0&opacityShadow=30&thicknessShadow=8px&offsetTopShadow=-8px&offsetLeftShadow=-8px&cornerRadiusShadow=8px
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+    #loading-div-background 
+    {
+        display:none;
+        position:fixed;
+        top:0;
+        left:0;
+        background:white;
+        width:100%;
+        height:100%;
+     }
+	     #loading-div
+    {
+         width: 300px;
+         height: 200px;
+         background-color: white;
+         text-align:center;
+         position:absolute;
+         left: 50%;
+         top: 50%;
+         margin-left:-150px;
+         margin-top: -100px;
+     }
+	 
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+#content-tarh  p{
+text-align:justify;
+line-height:25px
+}
+#DescriptionR {
+width:600px;
+}
+
+ div.module_menu {
+  margin-bottom: 25px;
+}
+
+div.module_menu{
+	margin:0 0 15px 0;
+	padding: 0;
+}
+
+div.module_menu div {
+	margin:0;
+	background: transparent url(../img/box_m.png) repeat-y top center;
+}
+
+div.module_menu div div {
+	text-align: center;
+	margin:0;
+	padding:0 0 3px 0;	
+	background: transparent url(../img/box_b.png) no-repeat bottom center;
+}
+
+div.module_menu div div div{
+	padding:0 0 14px 0;
+	margin:0;
+	color:#666666;
+	background: transparent url(../img/box_t.png) no-repeat top center;
+}
+
+
+div.module_menu div div div div {
+	background: none;
+	margin:0 auto;
+	padding:0;
+	color:#666666;
+	text-align:center;
+}
+
+
+
+td.leftsite h3 { 	
+	width:196px;
+	height: 28px;
+	line-height:27px;
+	margin:0 7px;
+	padding: 0 22px 0 10px;
+	font-size: 16px;
+	color: #484747;
+	text-align: right;
+	text-transform:none;
+	font-weight: 700;
+	overflow:hidden;
+	background: transparent url(../img/box_h3.png) no-repeat top center;
+}
+ span.explain { display:block; font-size:10px; color:#999999; }
+ 
+.f10_fontc{
+		border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:14pt;line-height:120%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+ 
+.f14_fontc{
+	background-color:#ffffff;border:0px solid black;border-color:#ffffff ;text-align:center;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B Nazanin';                        
+}
+
+ 
+.f16_font{
+	background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:16pt;line-height:150%;font-weight: bold;font-family:'B Nazanin';
+}
+.f14_font{
+	background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:14pt;line-height:120%;font-weight: bold;font-family:'B Nazanin';
+}
+.f13_font{
+	background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:13pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+.f12_font{
+	background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:12pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+.f11_font{
+	background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:11pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+
+
+.f10_font{
+		background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:10pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+
+
+.f9_font{
+		background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:9pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+
+.f8_font{
+		background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:8pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+.f7_font{
+		background-color:#ffffff;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:7pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+  
+  
+  
+  
+.f16_fontb{
+	background-color:#f3f3f3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:16pt;line-height:150%;font-weight: bold;font-family:'B Nazanin';                        
+}
+.f14_fontcb{
+	background-color:#f3f3f3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B Nazanin';                        
+}
+.f12_fontsb{
+	background-color:#f3f3f3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:12pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                        
+}
+.f14_fontb{
+	background-color:#f3f3f3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:14pt;line-height:120%;font-weight: bold;font-family:'B Nazanin';                        
+}
+.f13_fontb{
+	background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:13pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+.f12_fontb{
+	background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:12pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+.f11_fontb{
+	background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:11pt;line-height:100%;font-weight: bold;font-family:'B lotus';                        
+}
+
+.f10_fontb{
+		background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:10pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+
+.f9_fontb{
+		background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:9pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+
+.f8_fontb{
+		background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:8pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+.f7_fontb{
+		background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:center;font-size:7pt;line-height:100%;font-weight: bold;font-family:'B Nazanin';                           
+  }
+
+  
+.f131_fontb{
+	background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:right;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B lotus';                        
+}
+.f132_fontb{
+	background-color:#F3F3F3;border:1px solid black;border-color:#D1D1D1 ;text-align:left;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B lotus';                        
+}
+
+
+  
+  
+.f131_font{
+	border:1px solid black;border-color:#D1D1D1 ;text-align:right;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B lotus';                        
+}
+.f132_font{
+	border:1px solid black;border-color:#D1D1D1 ;text-align:left;font-size:14pt;line-height:150%;font-weight: bold;font-family:'B lotus';                        
+}
+
